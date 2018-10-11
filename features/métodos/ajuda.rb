@@ -1,7 +1,6 @@
-require 'faker'
-
 class Ajuda
     include Capybara::DSL
+    require 'faker'
 
     def gera_nome(sexo)
         if sexo == 1
