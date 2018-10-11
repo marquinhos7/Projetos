@@ -1,5 +1,3 @@
-require 'Faker'
-
 Before do
     @login_page = LoginPage.new
     @cabecalho = Cabecalho.new

@@ -1,3 +1,5 @@
+require 'Faker'
+
 class Ajuda
     include Capybara::DSL
 
