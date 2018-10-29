@@ -1,7 +1,8 @@
+require 'faker'
+
 class Ajuda
     include Capybara::DSL
-    require 'faker'
-
+    
     def gera_nome(sexo)
         if sexo == 1
             nome = Faker::Name.male_first_name
