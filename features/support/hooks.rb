@@ -1,6 +1,7 @@
 Before do
     @login_page = LoginPage.new
     @cabecalho = Cabecalho.new
+    @home_page = HomePage.new
     @menu = Menu.new
     @ajuda = Ajuda.new
     @arvore_processos = ArvoreProcessos.new
@@ -10,8 +11,7 @@ end
 
 Before('@login') do
     @login_page.acessar
-
-    @login_page.faz_login('ts02150', 'SgiMtc@004')
+    @login_page.faz_login('ts02150', 'Fnis@2018')
 end
 
 After('@logout') do

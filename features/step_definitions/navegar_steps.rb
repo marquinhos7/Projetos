@@ -1,5 +1,5 @@
 Dado("que estou na tela principal") do
-    visit '/site_home.aspx'
+    expect(@home_page.carga)
 end
 
 Quando("seleciono o seguinte menu") do |table|                                  

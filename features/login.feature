@@ -15,7 +15,7 @@ Contexto: Página de Login
 
         Quando faço login com
             | usuario | ts02150    |
-            | senha   | SgiMtc@004 |
+            | senha   | Fnis@2018  |
         Então sou autenticado com sucesso
 
     Esquema do Cenário: Tentativa de Login
@@ -29,6 +29,6 @@ Contexto: Página de Login
         | usuario | senha  | alerta                                        |
         | nexiste | teste@ | Usuário inválido                              |
         |         | teste@ | The sAMAccountName= search filter is invalid. |
-        | ts02150 | sdfs   | Senha inválida                                |
-        | ts02150 |        | Senha não preenchida                          |
+        | ts02150 | sdfs   | Login inválido                                |
+        | ts02150 |        | Login inválido                                |
         |         |        | The sAMAccountName= search filter is invalid. |
