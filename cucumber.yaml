@@ -1,5 +1,5 @@
 ---
-default: -p html -p bdd -p chrome
+default: -p html -p dot -p chrome
 ci: -p headless -p dot -p json
 html: --format html --out=log/reports.html
 json: --format json --out=log/reports.json
