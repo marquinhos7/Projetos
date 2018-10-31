@@ -7,6 +7,12 @@ class Cabecalho
         end
     end
 
+    def versao
+        within('#opcoesGlobais') do
+            return find('#ctl00_lblVersao')
+        end
+    end
+
     def sair
         menu_usuario.click
         click_link 'Sair'

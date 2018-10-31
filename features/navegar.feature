@@ -20,13 +20,13 @@ Contexto: Navegar em todas as telas
         Exemplos:
         | menu           | submenu           |
         | Parametrização | Manutenção        |
-        | Parametrização | Cópia             |
-        | Parametrização | Inclusão          |
-        | Parametrização | Exclusão          |
-        | Parametrização | Consultar         |
-        | Parametrização | Importar          |
-        | Parametrização | Aprovar           |
-        | Processos      |                   |
-        | Carga          | Não-Conformidades |
-        | Alterar Senha  |                   |
+        # | Parametrização | Cópia             |
+        # | Parametrização | Inclusão          |
+        # | Parametrização | Exclusão          |
+        # | Parametrização | Consultar         |
+        # | Parametrização | Importar          |
+        # | Parametrização | Aprovar           |
+        # | Processos      |                   |
+        # | Carga          | Não-Conformidades |
+        # | Alterar Senha  |                   |
 

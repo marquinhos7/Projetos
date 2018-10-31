@@ -3,7 +3,7 @@ class HomePage
 
     def carga
         within('#ultima_importacao') do
-            return find('#lblDataUltimaCarga')
+            return find('#lblDataUltimaCarga').text
         end
     end
 end

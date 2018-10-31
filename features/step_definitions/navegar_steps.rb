@@ -1,5 +1,5 @@
 Dado("que estou na tela principal") do
-    expect(@home_page.carga)
+    expect(@cabecalho.versao)
 end
 
 Quando("seleciono o seguinte menu") do |table|                                  
